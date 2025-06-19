@@ -90,3 +90,18 @@ Users can leave and manage feedback for properties they’ve booked.
 - Protect user data and credentials.
 - Secure financial transactions.
 - Prevent abuse and ensure fair use of resources.
+
+## 🔄 CI/CD Pipeline
+
+### What is CI/CD?
+CI/CD automates code integration, testing, and deployment. It allows fast and error-free releases.
+
+### Tools:
+- **GitHub Actions:** Automates testing and deployment on push/pull requests.
+- **Docker:** Packages the app for consistent deployment.
+- **PostgreSQL + Redis Containers:** Used for integration testing.
+
+### Benefits:
+- Early bug detection.
+- Faster delivery of features.
+- Consistent environments for deployment.
