@@ -28,3 +28,15 @@ This project simulates the backend infrastructure of a real-world Airbnb-style b
 - **Database Administrator (DBA):** Designs and maintains efficient database schemas.
 - **DevOps Engineer:** Automates deployment, manages environments, and monitors uptime.
 - **QA Engineer:** Tests APIs, ensures features meet requirements, and reports bugs.
+
+## 🛠️ Technology Stack
+
+- **Django:** Main web framework for backend logic.
+- **Django REST Framework:** Toolset for creating RESTful APIs.
+- **PostgreSQL:** Relational DB for storing app data.
+- **GraphQL:** Flexible data querying language.
+- **Celery:** Handles async tasks like sending notifications.
+- **Redis:** In-memory store used for caching and Celery broker.
+- **Docker:** Containerization for consistent development environments.
+- **GitHub Actions:** Automates testing and deployment workflows.
+
