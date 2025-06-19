@@ -40,3 +40,23 @@ This project simulates the backend infrastructure of a real-world Airbnb-style b
 - **Docker:** Containerization for consistent development environments.
 - **GitHub Actions:** Automates testing and deployment workflows.
 
+## 🗃️ Database Design
+
+### Entities:
+1. **Users**
+   - id, username, email, password_hash, is_host
+2. **Properties**
+   - id, owner_id, name, location, price, description
+3. **Bookings**
+   - id, user_id, property_id, start_date, end_date
+4. **Payments**
+   - id, booking_id, amount, status, payment_date
+5. **Reviews**
+   - id, user_id, property_id, rating, comment
+
+### Relationships:
+- A **User** can have many **Properties**.
+- A **Booking** belongs to both a **User** and a **Property**.
+- A **Payment** is linked to a **Booking**.
+- A **Review** is left by a **User** for a **Property**.
+
