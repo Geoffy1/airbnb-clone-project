@@ -60,3 +60,19 @@ This project simulates the backend infrastructure of a real-world Airbnb-style b
 - A **Payment** is linked to a **Booking**.
 - A **Review** is left by a **User** for a **Property**.
 
+## ✨ Feature Breakdown
+
+### User Management
+Users can register, log in, and manage their profile securely.
+
+### Property Management
+Hosts can create, update, and delete property listings.
+
+### Booking System
+Users can view availability and make property reservations.
+
+### Payment Processing
+Payments are securely processed and linked to bookings.
+
+### Review System
+Users can leave and manage feedback for properties they’ve booked.
