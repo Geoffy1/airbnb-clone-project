@@ -76,3 +76,17 @@ Payments are securely processed and linked to bookings.
 
 ### Review System
 Users can leave and manage feedback for properties they’ve booked.
+
+## 🔐 API Security
+
+### Key Security Measures:
+- **Authentication:** Token-based or JWT authentication for secure access.
+- **Authorization:** Role-based access (e.g., host vs. guest).
+- **Rate Limiting:** Protects from abuse using throttling.
+- **Data Validation:** Prevents injection and malformed data.
+- **HTTPS:** Ensures encrypted communication.
+
+### Importance:
+- Protect user data and credentials.
+- Secure financial transactions.
+- Prevent abuse and ensure fair use of resources.
